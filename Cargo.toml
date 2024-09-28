@@ -1,0 +1,10 @@
+[package]
+name = "cometbft-codec"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1"
+prost = "0.12"
+tracing = "0.1"
+tokio-util = { version = "0.6", features = ["codec"] }
